@@ -1,16 +1,64 @@
-# React + Vite
+# kyle-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal terminal-themed portfolio for **Tawanda "Kyle" Chihata** — IT Support Specialist pivoting into cybersecurity and offensive security.
 
-Currently, two official plugins are available:
+## What this is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React + Vite single-page app styled like a `kyle.exe` command-line session. Sections read like filesystem commands:
 
-## React Compiler
+- `whoami`
+- `career_log --follow`
+- `skills --verbose`
+- `ls ./projects`
+- `lab_progress --recent`
+- `cat ./writeups/*.md`
+- `certifications && education`
+- `currently_seeking`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dark mode default. Light mode toggle included. No external hosting dependencies beyond GitHub Pages.
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 8
+- Tailwind CSS v3
+- lucide-react 1.x
+
+## Structure
+
+```
+src/App.jsx          # main UI + data
+writeups/            # lab walkthroughs
+labs/                # backing notes / recon files from /home/kyle/labs
+dist/                # static build output
+```
+
+## Run locally
+
+```bash
+npm install
+npm run build
+npm run preview
+```
+
+Open `http://localhost:4173`.
+
+## Deployment
+
+Built for GitHub Pages with source set to `main` branch, `/dist` folder. After enabling Pages in repo settings, the live URL becomes:
+
+`https://<USERNAME>.github.io/kyle-portfolio`
+
+Replace `<USERNAME>` with the actual GitHub account that owns the repo.
+
+## Live writeups included
+
+- [`writeups/mr-robot.md`](writeups/mr-robot.md) — TryHackMe
+- [`writeups/guided-pentest-infra.md`](writeups/guided-pentest-infra.md) — TryHackMe
+- [`writeups/htb-connected.md`](writeups/htb-connected.md) — HackTheBox
+
+## Contact
+
+Email: `kylechihata@gmail.com`
+Phone: `+27 69 850 9575`
+Location: Cape Town, South Africa
