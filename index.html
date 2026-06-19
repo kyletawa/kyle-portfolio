@@ -736,9 +736,9 @@
 
   <div class="aegis-card reveal">
     <div class="aegis-left">
-      <div class="aegis-eyebrow">Live monitoring</div>
-      <div class="pxd-host">
-        <h3 class="pxd-src" style="font-size:clamp(40px,5vw,72px);line-height:1;letter-spacing:-.035em;font-weight:600;margin:0">Every packet,<br/><span class="it">watched.</span></h3>
+      <div class="aegis-eyebrow">Autonomous pentest</div>
+            <div class="pxd-host">
+              <h3 class="pxd-src" style="font-size:clamp(40px,5vw,72px);line-height:1;letter-spacing:-.035em;font-weight:600;margin:0">Every box,<br/><span class="it">autonomously rooted.</span></h3>
         <canvas class="pxd-fx" aria-hidden="true"></canvas>
       </div>
       <p style="margin-top:20px;color:var(--ink-dim);font-size:17px;line-height:1.6;max-width:42ch">Streaming anomaly scores update as traffic flows. Color-coded threats surface instantly, alongside per-host breakdowns.</p>
@@ -765,8 +765,8 @@
 
   <div class="triple reveal">
     <div class="tcard">
-      <span class="lbl">The model</span>
-      <h3>Isolation <span class="it">Forest.</span></h3>
+      <span class="lbl">CVE-2025-57819</span>
+      <h3>Pre-auth SQLi <span class="it">→ root.</span></h3>
       <p>Unsupervised. Lightweight. Trained on clean baselines — every outlier is its own story.</p>
       <div class="codeblock"><span class="k">from</span> sklearn.ensemble <span class="k">import</span> IsolationForest
 clf = IsolationForest(n_estimators=<b>200</b>, contamination=<b>0.02</b>)
@@ -774,8 +774,8 @@ clf.fit(X_baseline)  <span class="c"># 2,048 clean flows</span>
 <span class="ok">✓ fitted in 41ms</span></div>
     </div>
     <div class="tcard">
-      <span class="lbl">Sonic alerts</span>
-      <h3>You'll hear it <span class="it">first.</span></h3>
+      <span class="lbl">Incron root</span>
+      <h3>Root flag <span class="it">captured.</span></h3>
       <p>Threats trigger audible cues so operators don't need to stare at the screen.</p>
       <div class="codeblock"><span class="c">// per-threat tone — pitch maps to severity</span>
 audio.osc.frequency = <b>120</b> + score * <b>440</b>
@@ -783,8 +783,8 @@ audio.gain.value = <b>0.18</b>
 osc.start(); <span class="warn">⚠ alert</span>; setTimeout(stop, <b>220</b>)</div>
     </div>
     <div class="tcard">
-      <span class="lbl">Streamlit</span>
-      <h3>Ships as a <span class="it">live dashboard.</span></h3>
+      <span class="lbl">Hermes agent</span>
+      <h3>Powered by <span class="it">Hermes + DeepSeek.</span></h3>
       <p>No installer. No accounts. <code style="font-family:var(--mono);color:var(--cyan)">streamlit run aegis.py</code> and you're monitoring.</p>
       <div class="codeblock"><b>$</b> streamlit run aegis.py
 <span class="c">Local URL: </span><span class="bl">http://localhost:8501</span>
