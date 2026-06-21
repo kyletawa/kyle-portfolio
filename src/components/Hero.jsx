@@ -41,6 +41,7 @@ export default function Hero({ onNavigate }) {
 
         {/* Tagline */}
         <p className="text-xl sm:text-2xl md:text-3xl text-[var(--text-muted)] mt-4 max-w-3xl font-light leading-relaxed">
+          <span className="text-white font-medium">IT support</span> specialist.{' '}
           <span className="text-white font-medium">Security</span> tools.{' '}
           <span className="text-white font-medium">Penetration</span> testing.{' '}
           <span className="text-white font-medium">AI-driven</span> automation.
