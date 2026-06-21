@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'HTB Connected',
     category: 'PENTEST · CVE EXPLOIT',
-    description: 'Autonomous root via CVE-2025-57819: FreePBX SQLi → cron webshell → incron privesc. Zero manual intervention from Selene OS agent.',
+    description: 'Human-led root via CVE-2025-57819: FreePBX SQLi → cron webshell → incron privesc. Strategic direction and validation by Kyle; Hermes assisted with enumeration and payload drafting.',
     tags: ['SQLi', 'FreePBX', 'Privesc'],
     github: 'https://github.com/kyletawa/kyletawa/tree/main/ctf-writeups/htb-connected.md',
     snippet: 'CVE-2025-57819 · fcafee4eede9 (user) · 7ca047107ebb (root)',
