@@ -16,7 +16,7 @@ const notes = [
   },
   {
     title: 'Automation compounds trust.',
-    content: 'The first time Selene OS autonomously rooted a box, I didn\'t trust it. The tenth time, I let it run overnight. Reliability is built through repetition — the same reason you trust a cron job that\'s never missed a beat.',
+    content: 'The first time Selene OS helped structure a lab workflow, I checked every step manually. Over time, I learned where automation helps most: recon organization, repeatable checks, documentation, and keeping human judgment in control.',
     tags: ['Automation', 'AI', 'Trust'],
   },
   {

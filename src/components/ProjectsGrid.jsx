@@ -42,10 +42,10 @@ const projects = [
   {
     title: 'Selene OS',
     category: 'AI · AUTOMATION',
-    description: 'Jarvis-style AI ops hub: Telegram bot, Hermes agent, wake-word voice, UFW automation, and autonomous pentest pipelines.',
+    description: 'Jarvis-style AI ops hub: Telegram bot, Hermes agent, wake-word voice, UFW automation, and authorized lab workflow support.',
     tags: ['AI', 'Python', 'Automation'],
     github: 'https://github.com/kyletawa',
-    snippet: '754 cybersec skills · autonomous HTB root',
+    snippet: '754 cybersec skills · assisted lab workflow',
   },
   {
     title: 'Gordon\'s Sweets',

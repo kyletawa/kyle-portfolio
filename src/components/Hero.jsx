@@ -49,9 +49,9 @@ export default function Hero({ onNavigate }) {
         {/* Bio */}
         <p className="text-base text-[var(--text-muted)] mt-6 max-w-2xl leading-relaxed">
           A cybersecurity practitioner from Cape Town, obsessed with how systems break —
-          and how automation makes them unbreakable. IT support specialist turned penetration
-          tester, building <span className="text-[var(--cyan)]">Selene OS</span>, an AI-driven
-          pentest automation stack that autonomously rooted an HTB box end-to-end.
+          and how automation can support better security work. IT support specialist transitioning into
+          cybersecurity, building <span className="text-[var(--cyan)]">Selene OS</span>, an AI-assisted
+          workflow for authorized labs, recon organization, and technical documentation.
         </p>
 
         {/* CTA row */}
